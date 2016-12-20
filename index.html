@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Home Page</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script> 
+</head>
+
+<body>
+    
+    <div id="form">
+    
+    <form class="form-horizontal" name="contactMe" onsubmit="validate()">
+    <fieldset>
+    
+    <h2>Return Form</h2>
+    
+    <div class=".form-group-lg">
+       <div id="firstLastName">
+       	 <label>First Name:<input type="text" id="firstName" name="firstName"/></label>    
+    	 <label>Last Name:<input type="text" id="lastName" name="lastName"/></label><!--<br/>-->
+       </div>
+    		<label>Email Address:<input type="text" id="emailAddress" name="emailAddress"/></label><!--<br/>-->    
+    		<label class=".col-lg-3">Password:<input type="password" id="password" name="password"/></label>  <!--<br/>-->   
+    
+   	   	 <label>User ID<input type="text" id="userID" name="userID" /></label><br/>
+    	
+         
+         <label>Product Type:
+		 	<select>
+            	<option value="Book">Book</option>
+                <option value="CD">CD</option>
+                <option value="DVD">DVD</option>
+                <option value="Download">Download</option>
+         	</select>
+         </label>
+        
+        <!--<br/> -->
+        
+        <div>
+ 	     <label>Street:<input type="text" id="street" name="street"/></label>        
+    	 <label>State:<input type="text" id="state" name="state" size="2" maxlength="2"/></label>    
+    	 <label>ZIP:<input type="text" id="zip" name="zip" size="5" maxlength="5"/></label><!--<br/>-->
+        </div>
+        
+        <div id="reason">
+    	 <label>Reason for return:<textarea rows="4" cols="50" id="reasonForReturn" size="256"></textarea></label><!--<br/>-->
+        </div>
+            
+        <div class="g-recaptcha" data-sitekey="6LeC0A4UAAAAAMCJLpJWbJcb_2C7AnSK3dQqjydZ"></div> 
+        
+   	  <label id="tosLabel">I agree to the ToS<input type="checkbox" id="tos" name="tos" value="tos" /></label>
+      <!-- <br/> -->
+      <input type="submit"> 
+      
+    </div>
+    </fieldset>
+	</form>
+    
+    </div>
+    
+</body>
+</html>

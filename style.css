@@ -1,0 +1,77 @@
+fieldset
+{
+	width:510px;
+	height:890px;	
+}
+
+input 
+{ 
+    display: block;
+    margin-bottom: 10px; 
+    align-items: center;
+    align-content: center;
+    vertical-align: top;
+}
+label 
+{
+    display: block;
+    align-content: center;
+    margin-bottom: 20px;
+    vertical-align: top;
+}
+
+textarea
+{
+    resize: none;
+}
+
+h2
+{
+	text-align:center;
+}
+
+#tosLabel
+{
+     display: block;
+  padding-left: 5px;
+  padding-top: 10px;
+  text-indent: -5px;
+}
+
+#tos
+{
+  width: 13px;
+  height: 13px;
+  padding: 0;
+  margin-left: 1px;
+  vertical-align:middle;
+  position:inherit;
+  top: -1px;
+  
+}
+
+#reason label
+{   
+    width:99%;
+    
+}
+
+#firstLastName
+{
+    align-content: center;
+}
+
+#form
+{
+	margin:auto;
+	width:510px;
+}
+
+#reasonForReturn
+{
+    margin: 10px;
+    margin-top:10px;
+}
+
+/** id="container" on div, then do margin:auto */ 
+
